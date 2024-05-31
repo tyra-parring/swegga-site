@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/css/styling.css">
+
+<title>Tyra Parring</title>
+
+</head>
+
+<body>
+	
+	<div id="page">
+		<!-- <div class="rows"> -->
+			<!-- <div class="col"> -->
+				<div id="sidebar">
+					<img src="https://tyra-parring.github.io/swegga-imgs/swegga.jpg">
+				</div>
+
+			<!-- </div> -->
+			<div id="main">
+				<div class="col">
+					<div id="banner">
+						<img src="https://tyra-parring.github.io/swegga-imgs/delivery.gif">
+					</div>
+			
+					<div id="navigation">
+						<img src="https://tyra-parring.github.io/swegga-imgs/links.gif" alt="Links" usemap="#navmap">
+						<map name="navmap">
+							<area shape="rect" coords="10,5,95,35" alt="home" href="order.html">
+							<area shape="rect" coords="105,5,190,35" alt="services" href="services.html">
+							<area shape="rect" coords="205,5,300,35" alt="products" href="products.html">
+							<area shape="rect" coords="310,5,440,35" alt="orderStatus" href="orderStatus.html">
+							<area shape="rect" coords="450,5,555,35" alt="contactUs" href="contactUs.html">
+						</map>
+					</div>
+					<div>
+	
+						<form action="orders">
+							<p class="caption">Product Summary</p>
+							<table class="table">
+								<tr>
+									<th>Description</th>
+									<th>Size</th>
+									<th>Colour</th>
+									<th>Price</th>
+									<th>Quantity</th>
+									<th>Total</th>
+								</tr>
+								<tr>
+									<td><a href="female.html">Female Ski Jackets</a></td>
+									<td><select name="list" id="sizes">
+										<option value="Small">Small</option>
+										<option value="Medium">Medium</option>
+										<option value="Large">Large</option>
+									</select></td>
+									<td><select name="list" id="colours">
+										<option value="Red">Red</option>
+										<option value="Pink">Pink</option>
+										<option value="Black">Black</option>
+									</select></td>
+									<td class="price">150.95</td>
+									<td class="quantity"><input type="text" size="5"></td>
+									<td female-total total></td>
+								</tr>
+								<tr>
+									<td><a href="male.html">Male Ski Jackets</a></td>
+									<td><select name="list" id="sizes">
+										<option value="Small">Small</option>
+										<option value="Medium">Medium</option>
+										<option value="Large">Large</option>
+									</select></td>
+									<td><select name="list" id="colours">
+										<option value="Red">Red</option>
+										<option value="Blue">Blue</option>
+										<option value="White">White</option>
+									</select></td>
+									<td class="price">180.95</td>
+									<td class="quantity"><input type="text"></td>
+									<td male-total total></td>
+								</tr>
+								<tr>
+								 <td colspan="4">Click to confirm and process your order</td>
+								 <td><button id="btn">Total Price</button></td>
+								 <td overall-total></td>
+								</tr>
+								</table>
+							</form>
+					</div>
+						</div>
+			
+						
+					</div>
+					
+					<div id="footer">
+						<p class="alignRight">&copy; 2020 Swegga Fashion - Tyra Parring</p>
+					</div>
+	
+				
+			</div>
+			
+
+			</div>
+		
+		
+	</div>
+	
+
+<script src="./script/index.js"></script>
+
+</body>
+</html>
